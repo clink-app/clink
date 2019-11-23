@@ -720,6 +720,12 @@ input, select, textarea {
 
 		}
 
+/* Logo */
+
+.logolink {
+	border-radius: 100% !important;
+}
+
 /* List */
 
 	ol {
