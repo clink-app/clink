@@ -152,7 +152,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		border-bottom: dotted 1px rgba(0, 0, 0, 0.5);
 		text-decoration: none;
 		color: inherit;
 	}
@@ -729,8 +729,20 @@ input, select, textarea {
 
 /* Logo */
 
-.logolink {
-	border-radius: 100% !important;
+.deliverable {
+	text-indent: 30px;
+}
+
+.logo {
+	border-radius: 100%;
+	display: block;
+	text-align:center;
+}
+
+.deliverable-image {
+	display: block;
+	text-align:center;
+	border-radius:4px;
 }
 
 /* List */
