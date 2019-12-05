@@ -733,10 +733,8 @@ input, select, textarea {
 	text-indent: 30px;
 }
 
-.profile {
-	display: block;
-	text-align: center;
-	border-radius: 4px;
+.logo img {
+	border-radius: 50px !important;
 }
 
 .logo {
